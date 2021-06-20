@@ -1643,7 +1643,7 @@ background: url("../img/modal-man-icon.svg") no-repeat;
 	max-width: 360px;
 	margin-top: 20px;
 	height: 70px;
-	margin-bottom: 19;
+	margin-bottom: 19px;
 }
 .privacy__policy{
 	position: relative;
@@ -1684,4 +1684,126 @@ background: url("../img/modal-man-icon.svg") no-repeat;
 	background: #f9f9f9;
 	border-radius: 30px;
 	position: relative;
+}
+.modal__send{
+	position: relative;
+	background: url("/img/send-group.svg");
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	height:440px;
+	width: 460px;
+	color: white;
+}
+.modal__send h2{
+	margin: 249px auto 10px;
+	width: 350px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+}
+.modal__send p{
+	width: 325px;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0 auto;
+}
+
+/*Marketing*/
+
+.marketing__maim img {
+	max-width: 1920px;
+	height: 100%;
+	width: 100%;
+
+
+}
+.classification{
+	width: 100%;
+	max-width: 1230px;
+	margin: 0 auto;
+
+}
+.classification img{
+	object-fit: cover;
+}
+/*distributor*/
+.table__wrapper{
+	max-width: 1420px;
+	width: 100%;
+	margin: auto;
+}
+.distributor__table{
+	width: 100%;
+	padding: 0 15px;
+	border-collapse: collapse;
+	margin-bottom: 120px;
+}
+.distributor__table th{
+	text-align: left;
+	font-size: 14px;
+	line-height: 27px;
+}
+.distributor__table th, td{
+	padding: 10px 170px 20px 10px;
+	vertical-align: top;
+}
+.distributor__table tr{
+
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 27px;
+    height: 60px;
+}
+.distributor__table th{
+	border-bottom: #202228 2px solid;
+	white-space: nowrap;
+}
+.distributor__table tr:nth-child(even){
+ background: #F0F1F3;
+}
+.table__title{
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	margin-bottom: 60px;
+}
+/* article atomy*/
+.marketing__article{
+	max-width: 1420px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.article__title{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	line-height:48px ;
+	margin-bottom: 64px;
+}
+.marketing__cards{
+	max-width: 460px;
+	width: 100%;
+	border: #F0F1F3 1px solid;
+	margin: 10px;
+}
+.marketing__card{
+padding: 33px 40px 40px;
+}
+.card__title{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom: 13px;
+}
+.card__subtitle{
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
 }
