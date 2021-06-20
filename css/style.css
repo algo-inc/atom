@@ -1777,7 +1777,7 @@ background: url("../img/modal-man-icon.svg") no-repeat;
 	width: 100%;
 	margin: auto;
 	display: flex;
-	flex-wrap: wrap;
+
 }
 .article__title{
 	text-align: center;
