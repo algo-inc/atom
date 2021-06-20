@@ -1775,9 +1775,11 @@ background: url("../img/modal-man-icon.svg") no-repeat;
 .marketing__article{
 	max-width: 1420px;
 	width: 100%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
 	display: flex;
-
+	flex-wrap: wrap;
 }
 .article__title{
 	text-align: center;
@@ -1790,7 +1792,7 @@ background: url("../img/modal-man-icon.svg") no-repeat;
 	max-width: 460px;
 	width: 100%;
 	border: #F0F1F3 1px solid;
-	margin: 10px;
+	margin: 6px;
 }
 .marketing__card{
 padding: 33px 40px 40px;
@@ -1806,4 +1808,18 @@ padding: 33px 40px 40px;
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 20px;
+}
+.become__partner{
+	margin-bottom: 150px;
+}
+.become__partner a{
+	margin-right: auto;
+	margin-left: auto;
+	width: 460px;
+	height: 70px;
+}
+/* about */
+.about__company{
+	max-width: 940px;
+
 }
